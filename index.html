@@ -11,14 +11,25 @@
             padding-right: 12%;
             padding-left: 12%;
             padding-top: 5%;
-            max-width: 70%;
         }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #313131;
+        h1{
+            text-align: center;
+            color: #72acd6;
+            font-weight: bold;
+        }
+        h2{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+        p{
+            text-align: left;
+            line-height: 1.3em;
+            font-size: 20px;
+        }
+        .main {
+            margin: auto;
+            max-width: 800px;
         }
         .sidebar {
             position: fixed;
@@ -35,6 +46,7 @@
         }
         .sidebar a:hover{
             color: #72acd6;
+            background-color: #eeeeee;
         }
         .sidebar a:hover span {
             visibility: visible;
@@ -51,25 +63,15 @@
             width: 40px;
             text-align: center;
         }
-
-        h1{
-            text-align: center;
-            color: #72acd6;
-            font-weight: bold;
-        }
-        h2{
-            text-align: center;
-            color: black;
-            font-weight: bold;
-        }
         .sidepic{
-            width: 30%;
-            height: 30%;
+            min-width: 240px;
+            width: 35%;
+            height: 35%;
+            padding-top: 8px;
+            padding-right: 10px;
         }
-        p{
-            text-align: left;
-            line-height: 2em;
-            font-size: 25px;
+        .sig{
+            width: 200px;
         }
         .icons{
             color: black;
@@ -79,6 +81,9 @@
             font-size: 30px;
             display: block;
         }
+        .icons a{
+            color: black;
+        }
         .icons a:hover{
             color: #72acd6;
         }
@@ -86,19 +91,18 @@
     </style>
 </head>
 <body>
-<div>
 
-</div>
 <div class="sidebar">
-    <a><span>About </span><i class="fa fa-female" aria-hidden="true"></i></a>
-    <a><span>Resume </span><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+    <a href="index.html"><span>About </span><i class="fa fa-female" aria-hidden="true"></i></a>
+    <a href="resume.html"><span>Resume </span><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
     <a href="projects.html"><span>Projects </span><i class="fa fa-code" aria-hidden="true"></i></a>
 </div>
-<img align="left" src="images/sm.jpg" class="sidepic"/>
 
-<div align="left">
+
+<div class="main">
     <h1>SIERRA MOORE</h1>
     <h2>- ABOUT ME -</h2>
+    <img align="left" src="images/sm.jpg" class="sidepic"/>
     <p>Hello, my name is Sierra Moore and I am an emerging <font color="#72acd6">Quality Assurance Software Tester</font>
         in Manhattan, New York.
         I developed a <font color="#72acd6">deep</font> interest in the IT field when I accidentally downloaded a <font color="#971013">virus</font> onto
@@ -109,22 +113,19 @@
          Per Scholas and am nearly finished.
         I have learned the fundamental knowledge of software testing and the basics of web development
         (including coding this website right here ;). I am now prepared to enter the IT field as a <font color="#72acd6">software
-            tester</font> and can't wait have a play a part in a project to improve the quality of software.
-        <br>Take a look at my resume for detailed skills and my GitHub for other websites I've worked on and small programs in python.</p>
-
-
+            tester</font> and can't wait play a part in a project to improve the quality of software.
+        <br>Take a look at my resume for detailed skills and my projects for other websites I've worked on and small programs in python.</p>
 
     <div align="center">
-        <img src="images/sig4.jpg" width="20%" height="%20"/>
+        <img src="images/sig4.jpg" class="sig"/>
+    </div>
+
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/sierra-moore"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/sierramoore"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="mailto:sierra.v.moore@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
     </div>
 </div>
-<div class="icons">
-
-    <a><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-    <a><i class="fa fa-github" aria-hidden="true"></i></a>
-    <a><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
-</div>
-
 
 
 <script language="JavaScript">

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body{
+            font-family: 'Poiret One', cursive;
+            color: black;
+            padding-left: 12%;
+            padding-right: 12%;
+        }
+        .sidebar {
+            position: fixed;
+            top: 8px;
+            right: 8px;
+        }
+        .sidebar a {
+            color: black;
+            text-align: right;
+            padding: 5px;
+            font-size: 30px;
+            display: block;
+            text-decoration: none;
+        }
+        .sidebar a:hover{
+            color: #72acd6;
+        }
+        .sidebar a:hover span {
+            visibility: visible;
+            opacity: 3;
+        }
+        .sidebar a span {
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 2s;
+            color: #72acd6;
+            font-size: 20px;
+        }
+        .sidebar a i {
+            width: 40px;
+            text-align: center;
+        }
+        .icons{
+            color: black;
+            text-align: center;
+            padding: 10px;
+            word-spacing: 0.6em;
+            font-size: 30px;
+            display: block;
+        }
+        .icons a{
+            color: black;
+        }
+        .icons a:hover{
+            color: #72acd6;
+        }
+        h1{
+            text-align: center;
+            color:#72acd6;
+        }
+        li{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="../calendar/calendar.css">
+</head>
+<body>
+<div class="sidebar">
+    <a href="index.html"><span>About </span><i class="fa fa-female" aria-hidden="true"></i></a>
+    <a href="resume.html"><span>Resume </span><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+    <a href="projects.html"><span>Projects </span><i class="fa fa-code" aria-hidden="true"></i></a>
+</div>
+    <h1>Projects</h1>
+    <ul>
+        <li>Maars Diner</li>
+        <p>Is a school team project I worked on to make a restaurant POS system. We started with our teaching acting as the stakeholder
+            and wrote a requirements document based on specifications. Then coded and tested. I played a part in each and did the majority of the coding.<br>
+            This is the <a href="https://sierramoore.github.io/maars">showcase</a> link
+            and this is the <a href="https://github.com/sierramoore/maars">code</a> on github.</p>
+        <li>Homework</li>
+        <p>Is a collection of eight small python programs from a guessing game, simple chat bot, and math functions.<br>
+        This is a link to the <a href="https://github.com/sierramoore/homework">code</a> on github.</p>
+        <li>Calendar</li>
+        <p>Is a stylized calendar for the year 2017.<br>
+            This is the <a href="https://sierramoore.github.io/calendar">showcase</a> link and this is the <a>code</a> on github.</p>
+    </ul>
+
+<div class="icons">
+    <a href="https://www.linkedin.com/in/sierra-moore"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    <a href="https://github.com/sierramoore"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="mailto:sierra.v.moore@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
+</div>
+</body>
+</html>

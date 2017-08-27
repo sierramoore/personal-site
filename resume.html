@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .sidebar {
+            position: fixed;
+            top: 8px;
+            right: 8px;
+        }
+        .sidebar a {
+            color: black;
+            text-align: right;
+            padding: 5px;
+            font-size: 30px;
+            display: block;
+            text-decoration: none;
+        }
+        .sidebar a:hover{
+            color: #72acd6;
+        }
+        .sidebar a:hover span {
+            visibility: visible;
+            opacity: 3;
+        }
+        .sidebar a span {
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 2s;
+            color: #72acd6;
+            font-size: 20px;
+        }
+        .sidebar a i {
+            width: 40px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Resume</h1>
+    <div class="sidebar">
+        <a href="index.html"><span>About </span><i class="fa fa-female" aria-hidden="true"></i></a>
+        <a href="resume.html"><span>Resume </span><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+        <a href="projects.html"><span>Projects </span><i class="fa fa-code" aria-hidden="true"></i></a>
+    </div>
+</body>
+</html>
