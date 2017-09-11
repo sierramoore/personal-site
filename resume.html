@@ -7,6 +7,8 @@
     <style type="text/css">
         body{
             font-family: 'Poiret One', cursive;
+            font-weight: 900;
+            line-height: 1.4em;
             color: black;
             padding-right: 12%;
             padding-left: 12%;
@@ -32,6 +34,9 @@
         }
         p.bottom{
             padding-bottom: 25px;
+        }
+        p.bottomest{
+            padding-bottom: 50px;
         }
         h4{
             text-align: center;
@@ -88,7 +93,7 @@
         }
         .sidebar a:hover{
             color: #72acd6;
-            background-color: #eeeeee;
+            background-color: white;
         }
         .sidebar a:hover span {
             visibility: visible;
@@ -97,13 +102,27 @@
         .sidebar a span {
             visibility: hidden;
             opacity: 0;
-            transition: opacity 2s;
+            transition: opacity 1s;
             color: #72acd6;
             font-size: 20px;
         }
         .sidebar a i {
             width: 40px;
             text-align: center;
+        }
+        .download{
+            font-size: 20px;
+            margin: auto;
+            padding: 40%;
+        }
+        .download a{
+            text-decoration: none;
+            color: black;
+        }
+        .download a:hover{
+            color: #72acd6;
+            text-decoration: none;
+            margin: auto;
         }
 
     </style>
@@ -120,8 +139,8 @@
 <h1>Sierra Moore</h1>
 <h4>Upper East Side, Manhattan NY</h4>
 <div class="icons">
-    <a href="https://www.linkedin.com/in/sierra-moore"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-    <a href="https://github.com/sierramoore"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/sierra-moore" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    <a href="https://github.com/sierramoore" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
     <a href="mailto:sierra.v.moore@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
 </div>
 
@@ -194,7 +213,8 @@
 <h3>Hairstylist, Kolorbar, Manhattan, NY<span>12/2016 - 3/2017</span></h3>
 <h3>Hairstylist, The Color Room, Santa Barbara, CA<span>11/2013 - 3/2016</span></h3>
 
-
+<p class="bottomest"></p>
+<span class="download"><a download="Sierra_Moore_Resume" href="docs/sierra_moore_resume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download PDF</a></span>
 
 </body>
 </html>
