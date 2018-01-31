@@ -119,15 +119,33 @@
         <li>Python Assignments</li>
         <p>Is a collection of ten small python programs from a guessing game, simple chat bot, and math functions.</p>
     </ul>
-<div class="images">
-
-
-</div>
 
 <div class="icons">
     <a href="https://www.linkedin.com/in/sierra-moore" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
     <a href="https://github.com/sierramoore" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
     <a href="mailto:sierra.v.moore@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
 </div>
+
+<script type="text/javascript">
+    var slideIndex = 0;
+    showSlides();
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex> slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+</script>
+
 </body>
 </html>
