@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/jpg" href="images/bug.jpg">
+    <link rel="icon" type="image/jpg" href="images/codeSymbol.png">
     <title>Sierra Moore</title>
     <style type="text/css">
         body{
@@ -36,6 +36,8 @@
         }
         p.bottom{
             padding-bottom: 25px;
+            padding-right: 100%;
+            clear-after: both;
         }
         p.bottomest{
             padding-bottom: 50px;
@@ -53,13 +55,12 @@
             padding:0 0 0 15px;
         }
         .column{
-            float: left;
-            margin: -25px 30px 20px 10px;
-            line-height: 1.7em;
+            /*margin: -20px 50px 20px 10px;*/
+            display: flex;
+            line-height: 1.5em;
         }
-        .tools{
-            float: left;
-            display: block;
+        .column h3{
+            margin-right: 15vw;
         }
         .icons{
             color: black;
@@ -145,84 +146,83 @@
 </div>
 
 <h1>Sierra Moore</h1>
-<h4>Upper East Side, Manhattan NY</h4>
+<h4>Chicago, IL</h4>
 <div class="icons">
     <a href="https://www.linkedin.com/in/sierra-moore" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
     <a href="https://github.com/sierramoore" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
     <a href="mailto:sierra.v.moore@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
 </div>
 
-<h2>Summary of Qualifications</h2><br>
-<p>An emerging QA Software Tester, who possesses solid understanding of theoretical and practical aspects of software
-    testing, with fundamental programming knowledge. Naturally observant and detail oriented. Works well in a team
-    environment. Key Strengths: Highly organized. Effective writing and documentation skills.</p><p class="bottom"></p>
+<h2>Summary</h2><br>
+<p>I am naturally observant and attentive to detail. I enjoy open collaboration and gaining different insights and perspectives to incorporate ideas into my work.</p><p class="bottom"></p>
 
-<div class="tools">
-    <h2>Skills & Tools</h2>
-    <span class="column">
-        <h3>Software Testing Skills</h3>
+<h2>Skills & Tools</h2>
+
+<div class="column">
+    <span>
+        <h3 style="width: 100%">Programming Languages</h3>
         <ul>
-            <li>SDLC</li>
-            <li>Defect Lifecycle & Management</li>
-            <li>Manual Testing</li>
-            <li>Automated Testing</li>
-            <li>Regression Testing</li>
-            <li>Creating Test Plans and Cases</li>
-            <li>Creating Requirement Documents</li>
-            <li>Documentation in Jira</li>
-        </ul>
-    </span>
-    <span class="column">
-        <h3>Programming Languages</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML5</li>
+            <li>CSS3, Sass, EJS</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>MySQL</li>
+            <li>Canvas</li>
+            <li>AngularJS</li>
+            <li>Ruby</li>
+            <li>jQuery</li>
         </ul>
     </span>
-    <span class="column">
-        <h3>Testing & Coding Tools</h3>
+    <span>
+        <h3>Tools</h3>
         <ul>
-            <li>Selenium</li>
-            <li>Jira</li>
-            <li>Q-Test</li>
             <li>Git / GitHub</li>
             <li>WebStorm</li>
-            <li>PyCharm</li>
-            <li>MySQL Workbench</li>
-        </ul><p class="bottom"></p>
+            <li>Jira</li>
+        </ul>
     </span>
+    <span>
+        <h3>Other</h3>
+        <ul>
+            <li>SDLC</li>
+            <li>Manual Testing</li>
+            <li>Regression Testing</li>
+            <li>Creating Test Cases</li>
+        </ul>
+    </span><p class="bottom"></p>
 </div>
 <h2>Portfolio</h2>
-<h3>Website Coded in HTML, CSS, & JavaScript (<a href="https://sierramoore.github.io/maars" target="_blank">Link</a>)</h3>
-<p>Wrote a Requirement Document based on stakeholder specifications. Used agile methodology to sketch, design, and code
-    a restaurant POS system website.
+<h3>2D Canvas Game(<a href="https://github.com/sierramoore/vampire-game">Link</a>)</h3>
+<p>An avoiding obstacle game that incorporates collision detection, animation, score and health tracking.
+    Created mainly using HTML5 Canvas and JavaScript.</p>
+
+<h3>Full stack Movie Catalog Website(<a href="https://my-movie-list-sierra.herokuapp.com/users/register">Link</a>)</h3><p>Used TMDb API to query selected data about movies. Created user login, and preferences selection
+    for user to select favorite genres, and a watchlist page where user could store their selected
+    movies. Created in a team with two other classmates using JavaScript, Node.js, CSS, EJS, MongoDB, and Express.
 </p>
-<h3>Complete Test Plan and Test Case On Website</h3>
-<p>Gathered user acceptance criteria based on requirement document, usability, and functionality. Designed and
-    documented test cases using Jira. Executed tests via manual testing. Fixed bugs in code then regression tested.</p>
-<h3>Web Calendar Coded in HTML & CSS (<a href="https://sierramoore.github.io/calendar" target="_blank">Link</a>)</h3>
-<p>Coded to gain the fundamentals of static web design.</p>
-<h3>10 Projects in Python (<a href="https://github.com/sierramoore/homework" target="_blank">Link</a>)</h3>
-<p>Coded to gain the fundamentals of functional programming.</p>
-<h3>MySQL Database</h3>
-<p class="bottom">Created a database for a pet store with pet and customer information. Used Excel Spreadsheet to add client and pet
-    information into database.
-</p>
+
+<h3>Restaurant Website Coded & Tested(<a href="https://sierramoore.github.io/maars" target="_blank">Link</a>)</h3>
+<p>Created a restaurant POS system based on a requirement document.
+    Made wireframes and user stories. Coded in JavaScript, HTML, and CSS. Designed and documented test cases. Executed the tests via manual testing.</p> <p class="bottom"></p>
+
+
 <h2>Education</h2>
+
+<h3>General Assembly, Chicago, IL<span>3/2018</span></h3>
+<p>Full Stack Web Development Program</p>
+
 <h3>Per Scholas, Bronx, NY<span>9/2017</span></h3>
 <p>Software Testing Training Course in partnership with
     Tech Talent Pipeline</p>
+
 <h3>City College, Santa Barbara CA<span>11/2013</span></h3>
-<p class="bottom">Cosmetology Academy</p>
+<p>Cosmetology Academy</p><p class="bottom"></p>
+
+
 <h2>Work Experience</h2>
 <h3>Hairstylist, Kolorbar, Manhattan, NY<span>12/2016 - 3/2017</span></h3>
 <h3>Hairstylist, The Color Room, Santa Barbara, CA<span>11/2013 - 3/2016</span></h3>
 
 <p class="bottomest"></p>
-<span class="download"><a download="Sierra_Moore_Resume" href="docs/Sierra_Moore_Resume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download PDF</a></span>
+<span class="download"><a download="Sierra_Moore_Resume" href="docs/SierraMoore_Resume_WDI.docx.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download PDF</a></span>
 
 </body>
 </html>

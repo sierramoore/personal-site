@@ -95,6 +95,27 @@
 
     <h1>Projects</h1>
     <ul>
+        <li>2D Canvas Game</li>
+        <a href="https://github.com/sierramoore/vampire-game"><img class="images" src="images/vampGame.png" target="_blank"/></a>
+        <p>An avoiding obstacle game that incorporates collision detection, animation, score and health tracking.
+            Created mainly using HTML5 Canvas and JavaScript.</p>
+
+
+        <li>Full stack Movie Catalog Website</li>
+        <a href="https://my-movie-list-sierra.herokuapp.com/users/register"><img class="images" src="images/my_movie_list.png" target="_blank"/></a>
+        <p>Used TMDb API to query selected data about movies. Created user login, and preferences selection
+            for user to select favorite genres, and a watchlist page where user could store their selected
+            movies. Created in a team with two other classmates using JavaScript, Node.js, CSS, EJS, MongoDB, and Express.
+        </p>
+
+
+        <li>Full stack Fashion Catalog Service</li>
+        <a href="https://lookbookcouleur.herokuapp.com/"><img class="images" src="images/lookbook.png" target="_blank"/></a>
+        <p>In partnership with a classmate, created an application that allows the registered users to upload images
+            from other web pages and save them along with their source url and a color tag. Created using React,
+            Sinatra, and Express.</p>
+
+
         <li>Restaurant POS Website</li>
         <a href="https://sierramoore.github.io/maars" target="_blank"><img class="images" src="images/restaurant_project.jpg"/></a>
         <p>Is a school team project I worked on to make a restaurant POS website.<br>
@@ -109,15 +130,6 @@
             <br>- Regression tested
         </p>
 
-        <li>Calendar</li>
-        <a href="https://sierramoore.github.io/calendar" target="_blank"><img class="images" src="images/calendar.jpg"/></a>
-        <p>Is a stylized static html calendar for the year 2017.</p>
-
-        <li>MySQL Database</li>
-        <p>Created a database for a pet store with pet and customer information. Used Excel Spreadsheet to add client and pet information into database.</p>
-
-        <li>Python Assignments</li>
-        <p>Is a collection of ten small python programs from a guessing game, simple chat bot, and math functions.</p>
     </ul>
 
 <div class="icons">
@@ -125,27 +137,6 @@
     <a href="https://github.com/sierramoore" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
     <a href="mailto:sierra.v.moore@gmail.com"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
 </div>
-
-<script type="text/javascript">
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex> slides.length) {slideIndex = 1}
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 3000); // Change image every 3 seconds
-    }
-</script>
 
 </body>
 </html>
